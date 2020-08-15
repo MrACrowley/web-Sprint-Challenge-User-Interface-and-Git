@@ -281,4 +281,13 @@ footer nav a {
     text-decoration: none;
 }
 
-.about{border-bottom: 1px solid black;}
+.about{
+    border-bottom: 1px solid black;
+}
+
+.A{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
