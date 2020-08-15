@@ -28,6 +28,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+    padding: 2%;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: non wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 63%;
+    padding: 2%;
+    margin-right: 3%;
+    
+}
+
+img{
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
 body {
 	line-height: 1;
 }
